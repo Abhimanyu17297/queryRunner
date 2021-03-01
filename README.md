@@ -15,3 +15,5 @@
 
 ## Some Screen shots of app
 ![Alt text](./public/screenshots/scr-01.png "scr-1")
+![Alt text](./public/screenshots/scr-02.png "scr-1")
+![Alt text](./public/screenshots/scr-03.png "scr-1")
