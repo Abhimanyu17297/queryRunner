@@ -172,6 +172,9 @@ app.get('/api/getReports', async (req, res) => {
     })
 })
 
-app.listen(5667, () => {
-    console.log('listening at port 5667');
+
+const port = process.env.PORT || 5667;
+
+app.listen(port, () => {
+    console.log(`listening at port ${port}`);
 })
