@@ -41,7 +41,7 @@
                 <div class="list-group">
                     <% Object.values(data).forEach(val=> { %>
                         <button id="<%= val.id %> " type="button" class="list-group-item list-group-item-action"
-                            onclick="window.location='http://localhost:5667/queryResult/<%= val.id%>'">
+                            onclick="window.location='/queryResult/<%= val.id%>'">
                             <%= val.id %>.
                                 <%= val.title %>
                         </button>
