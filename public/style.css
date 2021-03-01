@@ -1,0 +1,56 @@
+.main-container {
+    padding-top: 30px;
+    background-color: dimgrey;
+    height: 100vh;
+    margin-top: 56px;
+}
+
+.form-container {
+    width: 50%;
+}
+
+.title-container {
+    margin-top: 20px;
+}
+
+.save-report-btn {
+    width: inherit;
+}
+
+hr {
+    height: 3px !important;
+}
+
+.query-form-container textarea{
+    height: 100px !important;
+    /* background-color: inherit; */
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title-container input{
+    /* background-color: inherit; */
+    color: #fff;
+}
+
+.title-container::placeholder{
+    color: #fff;
+}
+
+.list-container {
+    margin-top: 5px;
+}
+
+.list-container button {
+    color: #fff;
+    background-color: #212529;
+}
+
+.list-container-table {
+    margin-top: 50px  !important;
+}
+
+#download-btn {
+    color: #fff;
+}
